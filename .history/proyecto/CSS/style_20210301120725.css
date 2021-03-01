@@ -25,14 +25,10 @@ body {
     margin-right: 30px;
 }
 .header__menu ul {
-    display: none;
+    /* display: none; */
     list-style: none;
     padding: 0;
     position: absolute;
     width: 100px;
     text-align: right;
-}
-.header__menu--profile {
-    margin-right: 8px;
-    width: 40px;
 }
