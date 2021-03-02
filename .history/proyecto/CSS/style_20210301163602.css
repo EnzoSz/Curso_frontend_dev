@@ -40,7 +40,7 @@ body {
     font-weight: 500;
     line-height: 1.9rem;
     color: black;
-    margin: 0px 0px 0px -36px;
+    margin-right: -14px;
 }
 .header__menu:hover ul, ul:hover {
     display: block;
@@ -53,7 +53,7 @@ body {
     text-decoration: none;
     color: black;
 }
-.header__menu li a:hover{
+.header__menu--profile li a:hover{
     text-decoration: underline;
 }
 .header__menu--profile {

@@ -10,7 +10,6 @@ body {
     background-color: #00e981;
     background-image: linear-gradient(90deg, #00e981 0%, #2f5fef 100%);
     font-family: 'Mulish', sans-serif;
-    margin: 0;
 }
 .header {
     width: 100%;
@@ -30,7 +29,7 @@ body {
     margin-right: 30px;
 }
 .header__menu ul {
-    display: none;
+    /* display: none; */
     list-style: none;
     padding: 0;
     position: absolute;
@@ -40,20 +39,19 @@ body {
     font-weight: 500;
     line-height: 1.9rem;
     color: black;
-    margin: 0px 0px 0px -36px;
+    margin-right: -14px;
 }
 .header__menu:hover ul, ul:hover {
     display: block;
 }
-.header__menu li {
+.header__menu--profile li {
     margin: 10px 0px;
-    
 }
-.header__menu li a {
+.header__menu--profile li a {
+    color: white;
     text-decoration: none;
-    color: black;
 }
-.header__menu li a:hover{
+.header__menu--profile li a:hover{
     text-decoration: underline;
 }
 .header__menu--profile {
