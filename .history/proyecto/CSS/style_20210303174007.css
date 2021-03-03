@@ -69,19 +69,12 @@ body {
 }
 main {
     height: 300px;
-    padding: 50px;
-    
-}
-.nav {
-    text-align: center;
 }
 .nav__title {
     color: black;
     font-size: 20px;
-    padding-bottom: 10px;
 }
 .input {
-  background-color: rgba(255, 255, 255, 0.1);
   border: 2px solid white;  
   border-radius: 25px;
   color: white;
@@ -90,41 +83,4 @@ main {
   height: 25px;
   padding: 0px 10px;
   width: 70%;
-  outline: none;
 }
-::placeholder {
-    color: white;
-}
-.carousel {
-    width: 100%;
-    overflow: scroll;
-    padding: 30px;
-    position: relative;
-}
-.carousel__container {
-    white-space: nowrap;
-    margin: 70px 0px;
-    padding-bottom: 10px;
-}
-.carousel__item {
-    background-color: palevioletred;
-    width: 150px;
-    height: 200px;
-    border-radius: 20px;
-    overflow: hidden;
-    margin-right: 10px;
-    display: inline-block;
-    cursor: pointer;
-    transition: 450ms all;
-    transform-origin: center left;
-}
-.carousel__item:hover ~ .carousel__item {
-    transform: translate(100px, 0, 0);
-}
-.carousel__container:hover  .carousel__item {
-    opacity: 0.3;
-}
-.carousel__container:hover  .carousel__item:hover {
-    transform: scale(1.2);
-    opacity: 1;
-} 

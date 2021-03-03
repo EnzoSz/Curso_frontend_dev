@@ -69,7 +69,6 @@ body {
 }
 main {
     height: 300px;
-    padding: 50px;
     
 }
 .nav {
@@ -108,8 +107,8 @@ main {
 }
 .carousel__item {
     background-color: palevioletred;
-    width: 150px;
-    height: 200px;
+    width: 200px;
+    height: 250px;
     border-radius: 20px;
     overflow: hidden;
     margin-right: 10px;
